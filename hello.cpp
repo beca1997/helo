@@ -22,7 +22,9 @@ using namespace std;
 	int
 main ( int argc, char *argv[] )
 {
-	cout << "Hello, boiz!" << endl;
+	string name;
+	cin >> name;
+	cout << "Hello, "<< name << endl;
 	return EXIT_SUCCESS;
 }				/* ----------  end of function main  ---------- */
 
